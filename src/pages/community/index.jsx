@@ -22,7 +22,7 @@ class Community extends Language {
         <Header
           currentKey="community"
           type="normal"
-          logo="//img.alicdn.com/tfs/TB1gqL1w4D1gK0jSZFyXXciOVXa-1497-401.png"
+          logo="/img/pixiu-home-black-logo.png"
           language={language}
           onLanguageChange={this.onLanguageChange}
         />
@@ -57,7 +57,7 @@ class Community extends Language {
           }
           </div>
         </section>
-        <Footer logo="//img.alicdn.com/tfs/TB1dGrSwVT7gK0jSZFpXXaTkpXa-4802-1285.png" language={language} />
+        <Footer logo="/img/pixiu-logo-v4.png" language={language} />
       </div>
     );
   }

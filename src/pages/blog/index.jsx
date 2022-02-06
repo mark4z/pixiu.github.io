@@ -31,7 +31,7 @@ class Blog extends Language {
         <Header
           type="normal"
           currentKey="blog"
-          logo="//img.alicdn.com/tfs/TB1gqL1w4D1gK0jSZFyXXciOVXa-1497-401.png"
+          logo="/img/pixiu-home-black-logo.png"
           language={language}
           onLanguageChange={this.onLanguageChange}
         />

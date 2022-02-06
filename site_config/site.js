@@ -12,41 +12,36 @@ export default {
                 text: 'HOME',
                 link: '/en-us/index.html',
             },
-            {
-                key: 'docs',
-                text: 'DOCS',
-                link: '/en-us/docs/overview/what-is-pixiu.html',
-            },
+            // {
+                // key: 'docs',
+                // text: 'DOCS',
+                // link: '/en-us/docs/overview/what-is-pixiu.html',
+            // },
 
-            {
-                key: 'developers',
-                text: 'DEVELOPERS',
-                link: '/en-us/docs/developers/developers_dev.html',
-            },
-            {
-                key: 'blog',
-                text: 'BLOG',
-                link: '/en-us/blog/index.html',
-            },
-            {
-                key: 'Summer2021',
-                text: 'Summer2021',
-                link: 'https://github.com/seata/seata/issues/3741',
-            },
-            {
-                key: 'community',
-                text: 'COMMUNITY',
-                link: '/en-us/community/index.html',
-            },
-            {
-                key: 'download',
-                text: 'DOWNLOAD',
-                link: '/en-us/blog/download.html',
-            }
+            // {
+                // key: 'developers',
+                // text: 'DEVELOPERS',
+                // link: '/en-us/docs/developers/developers_dev.html',
+            // },
+            // {
+                // key: 'blog',
+                // text: 'BLOG',
+                // link: '/en-us/blog/index.html',
+            // },
+            // {
+                // key: 'community',
+                // text: 'COMMUNITY',
+                // link: '/en-us/community/index.html',
+            // },
+            // {
+                // key: 'download',
+                // text: 'DOWNLOAD',
+                // link: '/en-us/blog/download.html',
+            // }
         ],
         vision: {
             title: 'Vision',
-            content: 'Seata is an Alibaba open source distributed transaction solution that delivers high performance and easy to use distributed transaction services under a microservices architecture.',
+            content: 'Pixiu is a high-performance API gateway and multi-language solution Sidecar in the Dubbo ecosystem',
         },
         asf: {
             title: 'ASF',
@@ -131,11 +126,6 @@ export default {
                 key: 'blog',
                 text: '博客',
                 link: '/zh-cn/blog/index.html',
-            },
-            {
-                key: 'Summer2021',
-                text: '暑期2021',
-                link: 'https://github.com/seata/seata/issues/3741',
             },
             {
                 key: 'community',

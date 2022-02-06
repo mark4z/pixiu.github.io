@@ -1,7 +1,7 @@
 ---
-title: Seata版本向导
-keywords: Seata
-description: Seata版本向导。
+title: Pixiu版本向导
+keywords: Pixiu
+description: Pixiu 版本向导。
 ---
 
 TBD

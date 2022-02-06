@@ -1,33 +1,28 @@
 ---
-title: 为Seata贡献
-keywords: Seata
-description: 如果您有兴趣攻克Seata，欢迎您。首先，我们非常鼓励这种意愿。这是为您提供帮助的列表。
+title: 为 Pixiu 贡献
+keywords: Pixiu
+description: 如果您有兴趣攻克 Pixiu，欢迎您。首先，我们非常鼓励这种意愿。这是为您提供帮助的列表。
 ---
 
 # 为Seata贡献
 
-如果您有兴趣攻克Seata，欢迎您。首先，我们非常鼓励这种意愿。这是为您提供帮助的列表。
+如果您有兴趣攻克 Pixiu，欢迎您。首先，我们非常鼓励这种意愿。这是为您提供帮助的列表。
 
 ## 话题
 
-* [报告安全问题](#报告安全问题) 
+
 * [报告一般问题](#报告一般问题) 
 * [代码和文档贡献](#代码和文档贡献) 
 * [测试用例贡献](#测试用例贡献)
 * [致力于帮助任何事情](#致力于帮助任何事情)
 * [代码风格](#代码风格)
 
-## 报告安全问题
-
-安全问题应该始终得到认真对待。按照我们通常的原则，我们不鼓励任何人散布安全问题。如果您发现Seata的安全问题，请不要公开讨论，甚至不要公开问题。相反，我们建议您向我们发送一封私人电子邮件至 [dev-seata@googlegroups.com](mailto:dev-seata@googlegroups.com)进行举报。
-
 ## 报告一般问题
 
-坦白地说，我们认为Seata的每位用户都是非常友好的贡献者。体验Seata之后，您可能会对项目有一些反馈。然后随时通过[NEW ISSUE](https://github.com/seata/seata/issues/new/choose)打开[问题](https://github.com/seata/seata/issues/new/choose)。
+坦白地说，我们认为 Pixiu 的每位用户都是非常友好的贡献者。体验 Pixiu 之后，您可能会对项目有一些反馈。然后随时通过[NEW ISSUE](https://github.com/apache/dubbo-go-pixiu/issues/new)提交。
 
-因为我们在一个分布式的方式合作项目Seata，我们对此表示赞赏**编写良好**，**详细**，**明确**的问题报告。为了提高沟通效率，我们希望每个人都可以搜索您的问题是否在搜索列表中。如果发现它存在，请在现有问题下的评论中添加您的详细信息，而不要打开一个全新的issue。
+因为我们在一个分布式的方式合作项目 Pixiu，我们对此表示赞赏**编写良好**，**详细**，**明确**的问题报告。为了提高沟通效率，我们希望每个人都可以搜索您的问题是否在搜索列表中。如果发现它存在，请在现有问题下的评论中添加您的详细信息，而不要打开一个全新的issue。
 
-为了使问题详细信息尽可能地标准，我们为问题报告者设置了“ [问题模板](https://github.com/seata/seata/blob/develop/.github/ISSUE_TEMPLATE) ”。请**务必**按照说明填写模板中的字段。
 
 在很多情况下，您可以打开一个问题：
 
@@ -74,36 +69,18 @@ description: 如果您有兴趣攻克Seata，欢迎您。首先，我们非常�
 
 要提出PR，我们假设您已经注册了GitHub ID。然后，您可以按照以下步骤完成准备工作：
 
-1.  **FORK** Seata分支到您的存储库。要使此工作有效，您只需要单击[seata / seata](https://github.com/seata/seata)主页右边的按钮Fork 。然后，您将在`https://github.com/<your-username>/seata`中`your-username`找到您的存储库，这是您的GitHub用户名。
+1.  **FORK** Seata分支到您的存储库。要使此工作有效，您只需要单击[Pixiu](https://github.com/apache/dubbo-go-pixiu)主页右边的按钮Fork 。然后，您将在`https://github.com/<your-username>/dubbo-go-pixiu`中`your-username`找到您的存储库，这是您的GitHub用户名。
 
-2.  **CLONE**您自己的存储库以在本地进行开发。用于`git clone git@github.com:<your-username>/seata.git`将存储库克隆到本地计算机。然后，您可以创建新分支来完成您希望进行的更改。
+2.  **CLONE**您自己的存储库以在本地进行开发。用于`git clone git@github.com:<your-username>/dubbo-go-pixiu.git`将存储库克隆到本地计算机。然后，您可以创建新分支来完成您希望进行的更改。
 
-3.  **Set Remote**上游设置为`git@github.com:seata/seata.git`使用以下两个命令：
-
-```
-git remote add upstream git@github.com:seata/seata.git
-git remote set-url --push upstream no-pushing
-
-```
-
-使用此远程设置，您可以像这样检查git远程配置：
-
-```
-$ git remote -v
-origin     git@github.com:<your-username>/seata.git (fetch)
-origin     git@github.com:<your-username>/seata.git (push)
-upstream   git@github.com:seata/seata.git (fetch)
-upstream   no-pushing (push)
-
-```
 
 加上这一点，我们可以很容易地将本地分支与上游分支同步。
 
 ### 分支定义
 
-现在，我们假设通过拉取请求所做的所有贡献都是针对Seata中的[分支发展](https://github.com/seata/seata/tree/develop)。在做出贡献之前，了解分支定义会有所帮助。
+现在，我们假设通过拉取请求所做的所有贡献都是针对 Pixiu 中的[分支发展](https://github.com/apache/dubbo-go-pixiu/tree/develop)。在做出贡献之前，了解分支定义会有所帮助。
 
-作为贡献者，请再次记住，通过拉取请求进行的每个贡献都是为了分支发展。在Seata项目中，还有其他几个分支，我们通常称它们为发布分支（例如0.6.0、0.6.1），功能分支，修补程序分支和主分支。
+作为贡献者，请再次记住，通过拉取请求进行的每个贡献都是为了分支发展。在 Pixiu 项目中，还有其他几个分支，我们通常称它们为发布分支（例如0.3.0、0.4.0），功能分支，修补程序分支和主分支。
 
 正式发布版本时，将有一个发布分支，并以版本号命名。
 
@@ -115,7 +92,7 @@ upstream   no-pushing (push)
 
 ### 提交规则
 
-实际上，在Seata中，我们在提交时要认真对待两个规则：
+实际上，在 Pixiu 中，我们在提交时要认真对待两个规则：
 
 *   [提交讯息](https://github.com/seata/seata/blob/develop/CONTRIBUTING.md#commit-message)
 *   [提交内容](https://github.com/seata/seata/blob/develop/CONTRIBUTING.md#commit-content)
@@ -157,15 +134,15 @@ PR是更改Seata项目文件的唯一方法。为了帮助审稿人更好地实�
 
 ## 测试用例贡献
 
-任何测试用例都将受到欢迎。当前，Seata功能测试用例是高度优先的。
+任何测试用例都将受到欢迎。当前，Pixiu 功能测试用例是高度优先的。
 
-*   对于单元测试，您需要创建一个`xxxTest.java`在同一模块的测试目录中命名的测试文件。推荐您使用junit5 UT框架
+*   对于单元测试，您需要创建一个`xxx_test.go`在同一模块的测试目录中命名的测试文件。
 
-*   对于集成测试，您可以将集成测试放在测试目录或seata-test模块中。建议使用 mockito 测试框架。
+*   对于集成测试，您可以将集成测试放在测试目录或 samples 模块中。
 
 ## 致力于帮助任何事情
 
-我们选择GitHub作为Seata合作的主要场所。因此，Seata的最新更新始终在这里。尽管通过PR捐款是一种明确的帮助方式，但我们仍然呼吁其他方式。
+我们选择GitHub作为 Pixiu 合作的主要场所。因此，Seata的最新更新始终在这里。尽管通过PR捐款是一种明确的帮助方式，但我们仍然呼吁其他方式。
 
 *   如果可以的话，回复他人的问题；
 *   帮助解决其他用户的问题；
@@ -175,23 +152,4 @@ PR是更改Seata项目文件的唯一方法。为了帮助审稿人更好地实�
 *   在GitHub之外倡导Seata技术;
 *   在Seata上写博客，等等。
 
-## 代码风格
 
-Seata代码样式符合阿里巴巴Java编码准则。
-
-### 指导方针
-
-[阿里巴巴Java编码指南](https://alibaba.github.io/Alibaba-Java-Coding-Guidelines/)
-
-### IDE插件安装（不必要）
-
-_如果要在编码时发现问题，则无需安装。_
-
-#### idea IDE
-
-[p3c-idea-plugin-install](https://github.com/alibaba/p3c/blob/master/idea-plugin/README.md)
-
-#### eclipse IDE
-
-[p3c-eclipse-plugin-install](https://github.com/alibaba/p3c/blob/master/eclipse-plugin/README.md)
-总之，**任何帮助都是贡献。**

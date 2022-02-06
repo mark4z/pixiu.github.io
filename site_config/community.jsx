@@ -7,11 +7,11 @@ export default {
       title: 'Events & News',
       list: [
         {
-          img: 'https://img.alicdn.com/tfs/TB1isb2wYj1gK0jSZFuXXcrHpXa-4300-2867.jpg',
-          title: 'title',
-          content: 'seata',
-          dateStr: 'May 12nd，2018',
-          link: '/en-us/blog/blog1.html',
+          img: '/img/event.png',
+          title: 'Pixiu 0.4.0 release',
+          content: 'Pixiu 0.4.0 release',
+          dateStr: 'Dec 16，2021',
+          link: 'https://mp.weixin.qq.com/s/dok42ssPJqazjeSRYaifVw',
         },
       ]
     },
@@ -19,28 +19,17 @@ export default {
       title: 'Talk To Us',
       desc: 'Feel free to contact us via the following channel.',
       list: [
-        {
-          img: '/img/mailinglist.png',
-          imgHover: '/img/mailinglist_hover.png',
-          title: 'Mailing List',
-          link: 'mailto:dev-seata+subscribe@googlegroups.com'
-        },
-        {
-          img: '//img.alicdn.com/tfs/TB1OTCISET1gK0jSZFrXXcNCXXa-344-346.jpg',
-          imgHover: '//img.alicdn.com/tfs/TB1OTCISET1gK0jSZFrXXcNCXXa-344-346.jpg',
-          title: 'Seata WeChat Official Account(Recommend)',
-        },
-        {
-          img: '//img.alicdn.com/tfs/TB1nccZi79l0K4jSZFKXXXFjpXa-614-614.jpg',
-          imgHover: '//img.alicdn.com/tfs/TB1nccZi79l0K4jSZFKXXXFjpXa-614-614.jpg',
-          title: 'Wechat group assistant',
-        },
-        {
-          img: '//img.alicdn.com/imgextra/i4/O1CN01dlPWt21aVvzWusxiI_!!6000000003336-0-tps-248-228.jpg',
-          imgHover: '//img.alicdn.com/imgextra/i4/O1CN01dlPWt21aVvzWusxiI_!!6000000003336-0-tps-248-228.jpg',
-          title: 'dingTalk③(Recommend)',
-        }
-      ],
+  {
+      img: '/img/dingding.png',
+      imgHover: '/img/dingding.png',
+      title: 'Dubbogo2 group',
+  },
+  {
+      img: '/img/wechat.png',
+      imgHover: '/img/wechat.png',
+      title: 'wechat',
+  },
+],
     },
     contributorGuide: {
       title: 'Contributor Guide',
@@ -54,17 +43,17 @@ export default {
         {
           img: '/img/channels/github_gray.svg',
           title: 'Issue',
-          content: <span>Submit a <a href="https://github.com/seata/seata/issues/new">new issue</a>.</span>,
+          content: <span>Submit a <a href="https://github.com/apache/dubbo-go-pixiu/issues/new">new issue</a>.</span>,
         },
         {
           img: '/img/documents.png',
           title: 'Documents',
-          content: <span>Improve the <a href="https://github.com/seata/seata.github.io">documentation</a>.</span>,
+          content: <span>Improve the <a href="https://github.com/dubbogo/pixiu.github.io">documentation</a>.</span>,
         },
         {
           img: '/img/pullrequest.png',
           title: 'Pull Request',
-          content: <span>Create a brilliant <a href="https://github.com/seata/seata/pulls">pull request</a>.  </span>,
+          content: <span>Create a brilliant <a href="https://github.com/apache/dubbo-go-pixiu/pulls">pull request</a>.  </span>,
         },
       ],
     },
@@ -75,18 +64,18 @@ export default {
       title: '事件 & 新闻',
       list: [
         {
-          img: 'https://img.alicdn.com/tfs/TB1qH2YwVP7gK0jSZFjXXc5aXXa-2002-901.jpg',
-          title: 'Seata Meetup·杭州站成功举办',
-          content: 'Seata Community Meetup·杭州站,于12月21号在杭州市梦想小镇浙江青年众创空间完美举办',
-          dateStr: 'Dec 25nd，2019',
-          link: '/zh-cn/blog/seata-meetup-hangzhou.html',
+          img: '/img/event.png',
+          title: 'Pixiu 0.4.0 发布',
+          content: 'Pixiu 0.4.0 发布，动态从 Spring Cloud 和 Dubbo 注册中心拉取路由和集群配置数据',
+          dateStr: 'Dec 16，2021',
+          link: 'https://mp.weixin.qq.com/s/dok42ssPJqazjeSRYaifVw',
         },
         {
-          img: '/img/blog/20191218210552.png',
-          title: 'Seata Community Meetup·杭州站',
-          content: 'Seata Community Meetup·杭州站,将于12月21号在杭州市梦想小镇浙江青年众创空间正式召开',
-          dateStr: 'Dec 18nd，2019',
-          link: '/zh-cn/blog/seata-community-meetup-hangzhou-ready.html',
+          img: '/img/event3.png',
+          title: 'ApacheConAsia2021 演讲',
+          content: '云原生高性能网关 dubbo_go pixiu 介绍',
+          dateStr: 'Aug 19，2021',
+          link: 'https://www.bilibili.com/video/BV1uL4y1e7Pw?from=search&seid=14616380250806627212&spm_id_from=333.337.0.0',
         },
       ]
     },
@@ -95,25 +84,14 @@ export default {
       desc: '有问题需要反馈？请通过一下方式联系我们。',
         list: [
             {
-                img: '/img/mailinglist.png',
-                imgHover: '/img/mailinglist_hover.png',
-                title: '邮件列表',
-                link: 'mailto:dev-seata+subscribe@googlegroups.com'
+                img: '/img/dingding.png',
+                imgHover: '/img/dingding.png',
+                title: 'Dubbogo2 钉钉群聊',
             },
             {
-                img: '//img.alicdn.com/tfs/TB1OTCISET1gK0jSZFrXXcNCXXa-344-346.jpg',
-                imgHover: '//img.alicdn.com/tfs/TB1OTCISET1gK0jSZFrXXcNCXXa-344-346.jpg',
-                title: 'Seata 微信官方公众号(强烈推荐)',
-            },
-            {
-                img: '//img.alicdn.com/tfs/TB1nccZi79l0K4jSZFKXXXFjpXa-614-614.jpg',
-                imgHover: '//img.alicdn.com/tfs/TB1nccZi79l0K4jSZFKXXXFjpXa-614-614.jpg',
-                title: '微信群拉取小助手',
-            },
-            {
-                img: '//img.alicdn.com/imgextra/i4/O1CN01dlPWt21aVvzWusxiI_!!6000000003336-0-tps-248-228.jpg',
-                imgHover: '//img.alicdn.com/imgextra/i4/O1CN01dlPWt21aVvzWusxiI_!!6000000003336-0-tps-248-228.jpg',
-                title: '钉钉③群(推荐)',
+                img: '/img/wechat.png',
+                imgHover: '/img/wechat.png',
+                title: '微信公众号',
             },
       ],
     },
@@ -129,17 +107,17 @@ export default {
         {
           img: '/img/channels/github_gray.svg',
           title: '报告问题',
-          content: <span>提交<a href="https://github.com/seata/seata/issues/new">新问题</a>。</span>,
+          content: <span>提交<a href="https://github.com/apache/dubbo-go-pixiu/issues/new">新问题</a>。</span>,
         },
         {
           img: '/img/documents.png',
           title: '改进文档',
-          content: <span>改进<a href="https://github.com/seata/seata.github.io">文档</a>。</span>,
+          content: <span>改进<a href="https://github.com/dubbogo/pixiu.github.io">文档</a>。</span>,
         },
         {
           img: '/img/pullrequest.png',
           title: '提交 PR',
-          content: <span>创建一个<a href="https://github.com/seata/seata/pulls">PR</a>。</span>,
+          content: <span>创建一个<a href="https://github.com/apache/dubbo-go-pixiu/pulls">PR</a>。</span>,
         },
       ],
     },
