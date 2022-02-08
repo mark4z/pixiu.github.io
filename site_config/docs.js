@@ -266,12 +266,8 @@ export default {
                         title: '附录',
                         children: [
                             {
-                                title: '事务状态',
-                                link: '/zh-cn/docs/user/appendix/global-transaction-status.html',
-                            },
-                            {
-                                title: '事务隔离',
-                                link: '/zh-cn/docs/user/appendix/isolation.html',
+                                title: 'HTTP to Dubbo 默认转换协议',
+                                link: '/zh-cn/docs/user/appendix/http-to-dubbo-default-stragety.html',
                             }
                         ]
                     }]
