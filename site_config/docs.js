@@ -126,11 +126,49 @@ export default {
                         link: '/zh-cn/docs/user/quickstart.html',
                     },
                     {
-                        title: '参数配置',
+                        title: '启动参数和配置简介',
                         link: '/zh-cn/docs/user/configurations.html',
                     },
                     {
-                        title: '事务分组',
+                        title: 'Listener 介绍',
+                        children: [
+                            {
+                                title: 'HTTP Listener 介绍',
+                                link: '/zh-cn/docs/user/listener/http.html',
+                            },
+                            {
+                                title: 'HTTP2 Listener 介绍',
+                                link: '/zh-cn/docs/user/listener/http2.html',
+                            },
+                            {
+                                title: 'TCP Listener 介绍',
+                                link: '/zh-cn/docs/user/listener/tcp.html',
+                            },
+                            {
+                                title: 'Triple Listener 介绍',
+                                link: '/zh-cn/docs/user/listener/triple.html',
+                            }
+                        ]
+                    },
+                    {
+                        title: 'NetworkFilter 介绍',
+                        children: [
+                            {
+                                title: 'HttpConnectionManager 介绍',
+                                link: '/zh-cn/docs/user/networkfilter/http.md',
+                            },
+                            {
+                                title: 'GrpcConnectionManager 介绍',
+                                link: '/zh-cn/docs/user/networkfilter/grpc.md',
+                            },
+                            {
+                                title: 'DubboConnectionManager 介绍',
+                                link: '/zh-cn/docs/user/networkfilter/dubbo.md',
+                            }
+                        ]
+                    },
+                    {
+                        title: 'HttpFilter 介绍',
                         children: [
                             {
                                 title: '事务分组介绍',
@@ -143,123 +181,29 @@ export default {
                         ]
                     },
                     {
-                        title: '配置中心',
+                        title: 'Adapter 介绍',
                         children: [
                             {
-                                title: '简介',
-                                link: '/zh-cn/docs/user/configuration/index.html',
+                                title: '事务分组介绍',
+                                link: '/zh-cn/docs/user/txgroup/transaction-group.html',
                             },
                             {
-                                title: 'Nacos 配置中心',
-                                link: '/zh-cn/docs/user/configuration/nacos.html',
-                            },
-                            {
-                                title: 'Apollo 配置中心',
-                                link: '/zh-cn/docs/user/configuration/apollo.html',
-                            },
-                            {
-                                title: 'Etcd3 配置中心',
-                                link: '/zh-cn/docs/user/configuration/etcd3.html',
-                            },
-                            {
-                                title: 'Consul 配置中心',
-                                link: '/zh-cn/docs/user/configuration/consul.html',
-                            },
-                            {
-                                title: 'Zookeeper 配置中心',
-                                link: '/zh-cn/docs/user/configuration/zookeeper.html',
+                                title: '事务分组与高可用',
+                                link: '/zh-cn/docs/user/txgroup/transaction-group-and-ha.html',
                             }
-                        ],
-                    },
-                    {
-                        title: '注册中心',
-                        children: [
-                            {
-                                title: '简介',
-                                link: '/zh-cn/docs/user/registry/index.html',
-                            },
-                            {
-                                title: 'Nacos 注册中心',
-                                link: '/zh-cn/docs/user/registry/nacos.html',
-                            },
-                            {
-                                title: 'Eureka 注册中心',
-                                link: '/zh-cn/docs/user/registry/eureka.html',
-                            },
-                            {
-                                title: 'Etcd3 注册中心',
-                                link: '/zh-cn/docs/user/registry/etcd3.html',
-                            },
-                            {
-                                title: 'Consul 注册中心',
-                                link: '/zh-cn/docs/user/registry/consul.html',
-                            },
-                            {
-                                title: 'Zookeeper 注册中心',
-                                link: '/zh-cn/docs/user/registry/zookeeper.html',
-                            }
-                        ],
-                    },
-                    {
-                        title: 'API 支持',
-                        link: '/zh-cn/docs/user/api.html',
-                    },
-                    {
-                        title: '微服务框架支持',
-                        link: '/zh-cn/docs/user/microservice.html',
-                    },
-                    {
-                        title: 'ORM 框架支持',
-                        link: '/zh-cn/docs/user/ormframework.html',
-                    },
-                    {
-                        title: '数据库类型支持',
-                        link: '/zh-cn/docs/user/datasource.html',
-                    },
-                    {
-                        title: 'SQL参考',
-                        children: [
-                            {
-                                title: 'SQL限制',
-                                link: '/zh-cn/docs/user/sqlreference/sql-restrictions.html',
-                            },
-                            {
-                                title: 'DML语句',
-                                link: '/zh-cn/docs/user/sqlreference/dml.html',
-                            },
-                            {
-                                title: 'SQL修饰',
-                                link: '/zh-cn/docs/user/sqlreference/sql-decoration.html',
-                            },
-                            {
-                                title: '函数',
-                                link: '/zh-cn/docs/user/sqlreference/function.html',
-                            },
                         ]
                     },
                     {
-                        title: 'APM',
+                        title: '案例介绍',
                         children: [
                             {
-                                title: 'SkyWalking',
-                                link: '/zh-cn/docs/user/apm/skywalking.html',
-
+                                title: '事务分组介绍',
+                                link: '/zh-cn/docs/user/txgroup/transaction-group.html',
                             },
                             {
-                                title: 'Prometheus',
-                                link: '/zh-cn/docs/user/apm/prometheus.html',
-
-                            },
-                        ]
-                    },
-                    {
-                        title: '测试报告',
-                        children: [
-                            {
-                                title: '性能测试报告',
-                                link: '/zh-cn/docs/user/performance.html',
-
-                            },
+                                title: '事务分组与高可用',
+                                link: '/zh-cn/docs/user/txgroup/transaction-group-and-ha.html',
+                            }
                         ]
                     },
                     {

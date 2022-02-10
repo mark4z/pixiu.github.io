@@ -1,5 +1,5 @@
 ---
-title: Seata Terminology
+title: Pixiu Terminology
 keywords: Seata
 description: Seata Terminology.
 ---
