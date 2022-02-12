@@ -132,11 +132,6 @@ export default {
                 text: '社区',
                 link: '/zh-cn/community/index.html',
             },
-            {
-                key: 'download',
-                text: '下载',
-                link: '/zh-cn/blog/download.html',
-            },
         ],
         vision: {
             title: '愿景',
@@ -201,6 +196,6 @@ export default {
                 },
             ],
         },
-        copyright: 'Copyright © 2021 Seata',
+        copyright: 'Copyright © 2022 Pixiu',
     },
 };

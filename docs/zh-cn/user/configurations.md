@@ -7,7 +7,7 @@ description: Pixiu 启动命令和配置文件详解
 
 ### Pixiu 启动命令
 
-Pixiu 分为两个形态 Gateway 和 Sidecar，目前 Pixiu 可执行程序的命令如下所示，其中 pixiu 是可执行文件名称。
+Pixiu 分为两个形态 Gateway 和 Sidecar，目前 Pixiu 可执行程序的命令如下所示，其中 pixiu 是可执行文件名称。注意，-c 后是本地配置文件的绝对路径。
 
 ```
 pixiu gateway start -c /config/conf.yaml
@@ -138,5 +138,13 @@ route 可以用于对请求进行路由分发，以下面配置为例。具体�
 ```
 
 如上配置所示，`httpconnectionmanager` 这个 NetworkFilter 下有一个 HttpFilter chain。其中包括 `dgp.filter.http.dubboproxy` 这一款 HttpFilter。
-它负责将 HTTP 请求转换为 Dubbo 请求，并转发出去。它需要配置一个 Dubbo 集群注册中心的地址信息，指定其为 zookeeper 中间件。更多的 HttpFilter 可以查看 [HttpFilter文档](/zh-cn/docs/user/httpfilter/dubbo.html)。
+它负责将 HTTP 请求转换为 Dubbo 请求，并转发出去。它需要配置一个 Dubbo 集群注册中心的地址信息，指定其为 zookeeper 中间件。其中 `auto_resolve` 则指定使用 HTTP to Dubbo 默认转换协议来进行相关数据转换，具体可以参考[《默认转换协议》](/zh-cn/docs/user/appendix/http-to-dubbo-default-stragety.html)。
+
+更多的 HttpFilter 可以查看 [HttpFilter文档](/zh-cn/docs/user/httpfilter/dubbo.html)。
+
+#### Adapter
+
+Adapter 代表 Pixiu 和外界元数据中心交互的能力。目前有两款，分别是 `dgp.adapter.dubboregistrycenter` 和 `dgp.adapter.springcloud`，分别代表从 Dubbo 集群注册中心和 Spring Cloud 集群注册中心获取服务实例信息，构建 Pixiu 转发 Http 请求路由规则的。
+
+更多的 Adapter 可以查看 [Adapter文档](/zh-cn/docs/user/adapter/dubbo.html)。
 

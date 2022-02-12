@@ -43,25 +43,3 @@ go mod vendor && go test ./pkg/... -coverprofile=coverage.txt -covermode=atomic
 chmod +x start_integrate_test.sh && chmod +x integrate_test.sh && ./start_integrate_test.sh
 
 
-
-### 编码规范
-
-代码约定
-我们的代码风格几乎和标准 Java 约定一致（流行IDE的默认设置满足这一点），主要有以下附加限制：
-
-如果当前行中有超过 120 个字符，则起一个新的行。
-
-确保所有新的 .java 文件都有一个简单的 JavaDoc 类注释，其中至少有一个标识创建日期的标签，最好至少有一个关于该类的解释说明。
-
-将ASF许可注释添加到所有新的 .java 文件（从项目中的现有文件复制）
-
-请确保没有将 @author 标记添加到您所贡献的文件中，因为 Apache 不使用 @author 标记，其他方式（如cvs）将公平地记录所有您的贡献。
-
-为代码添加一些 JavaDoc，如果您更改命名空间，则需要一些 XSD DOC 元素。
-
-对于新的特征或重要的修复程序，应该添加单元测试。
-
-如果没有其他人使用您的分支，请将它与 master（或主项目中的其他目标分支）同步。
-
-当编写提交消息时，请遵循这些约定，如果您正在修复一个现有问题，请在提交消息的末尾添加 Fixes XXX（其中XXX是问题编号）。
-

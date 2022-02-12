@@ -71,18 +71,18 @@ export default {
                             title: '新贡献者向导',
                             link: '/zh-cn/docs/developers/contributor-guide/new-contributor-guide_dev.html',
                         },
-                        {
-                            title: '测试覆盖率向导',
-                            link: '/zh-cn/docs/developers/contributor-guide/test-coverage-guide_dev.html',
-                        },
-                        {
-                            title: '如何汇报安全漏洞',
-                            link: '/zh-cn/docs/developers/contributor-guide/reporting-security-issues_dev.html',
-                        },
-                        {
-                            title: '参与贡献',
-                            link: '/zh-cn/docs/developers/guide_dev.html',
-                        },
+                        // {
+                        //     title: '测试覆盖率向导',
+                        //     link: '/zh-cn/docs/developers/contributor-guide/test-coverage-guide_dev.html',
+                        // },
+                        // {
+                        //     title: '如何汇报安全漏洞',
+                        //     link: '/zh-cn/docs/developers/contributor-guide/reporting-security-issues_dev.html',
+                        // },
+                        // {
+                        //     title: '参与贡献',
+                        //     link: '/zh-cn/docs/developers/guide_dev.html',
+                        // },
                     ]
                 },
                 {

@@ -154,16 +154,16 @@ export default {
                         title: 'NetworkFilter 介绍',
                         children: [
                             {
-                                title: 'HttpConnectionManager 介绍',
-                                link: '/zh-cn/docs/user/networkfilter/http.md',
+                                title: 'Http NetworkFitler 介绍',
+                                link: '/zh-cn/docs/user/networkfilter/http.html',
                             },
                             {
-                                title: 'GrpcConnectionManager 介绍',
-                                link: '/zh-cn/docs/user/networkfilter/grpc.md',
+                                title: 'Grpc NetworkFitler 介绍',
+                                link: '/zh-cn/docs/user/networkfilter/grpc.html',
                             },
                             {
-                                title: 'DubboConnectionManager 介绍',
-                                link: '/zh-cn/docs/user/networkfilter/dubbo.md',
+                                title: 'Dubbo NetworkFitler 介绍',
+                                link: '/zh-cn/docs/user/networkfilter/dubbo.html',
                             }
                         ]
                     },
@@ -171,12 +171,16 @@ export default {
                         title: 'HttpFilter 介绍',
                         children: [
                             {
-                                title: '事务分组介绍',
-                                link: '/zh-cn/docs/user/txgroup/transaction-group.html',
+                                title: 'Dubbo HttpFilter 介绍',
+                                link: '/zh-cn/docs/user/httpfilter/dubbo.html',
                             },
                             {
-                                title: '事务分组与高可用',
-                                link: '/zh-cn/docs/user/txgroup/transaction-group-and-ha.html',
+                                title: 'RateLimiter 介绍',
+                                link: '/zh-cn/docs/user/httpfilter/ratelimit.html',
+                            },
+                            {
+                                title: '断路器介绍',
+                                link: '/zh-cn/docs/user/httpfilter/hystrix.html',
                             }
                         ]
                     },
@@ -184,12 +188,12 @@ export default {
                         title: 'Adapter 介绍',
                         children: [
                             {
-                                title: '事务分组介绍',
-                                link: '/zh-cn/docs/user/txgroup/transaction-group.html',
+                                title: 'Dubbo 集群中心 Adapter',
+                                link: '/zh-cn/docs/user/adapter/dubbo.html',
                             },
                             {
-                                title: '事务分组与高可用',
-                                link: '/zh-cn/docs/user/txgroup/transaction-group-and-ha.html',
+                                title: 'Spring Cloud 集群中心 Adapter',
+                                link: '/zh-cn/docs/user/adapter/springcloud.html',
                             }
                         ]
                     },
@@ -197,12 +201,12 @@ export default {
                         title: '案例介绍',
                         children: [
                             {
-                                title: '事务分组介绍',
-                                link: '/zh-cn/docs/user/txgroup/transaction-group.html',
+                                title: 'HTTP代理案例',
+                                link: '/zh-cn/docs/user/samples/http_proxy.html',
                             },
                             {
-                                title: '事务分组与高可用',
-                                link: '/zh-cn/docs/user/txgroup/transaction-group-and-ha.html',
+                                title: 'Spring Cloud 集群案例',
+                                link: '/zh-cn/docs/user/samples/springcloud.html',
                             }
                         ]
                     },
@@ -214,77 +218,44 @@ export default {
                                 link: '/zh-cn/docs/user/appendix/http-to-dubbo-default-stragety.html',
                             }
                         ]
-                    }]
+                    }, {
+                        title: '部署',
+                        link: '/zh-cn/docs/user/deployment.html',
+                    }
+                ]
             },
             {
                 title: '开发者指南',
                 children: [
                     {
-                        title: '各事务模式',
+                        title: 'Filter 扩展',
                         children: [
                             {
-                                title: 'Seata AT 模式',
-                                link: '/zh-cn/docs/dev/mode/at-mode.html',
-                            },
-                            {
-                                title: 'Seata TCC 模式',
-                                link: '/zh-cn/docs/dev/mode/tcc-mode.html',
-                            },
-                            {
-                                title: 'Seata Saga 模式',
-                                link: '/zh-cn/docs/user/saga.html',// zh-cn/docs/dev/mode/saga-mode.html
-                            },
-                            {
-                                title: 'Seata XA 模式',
-                                link: '/zh-cn/docs/dev/mode/xa-mode.html',
+                                title: 'Pixiu Filter 体系介绍',
+                                link: '/zh-cn/docs/dev/filter-extension.html',
                             }
                         ],
                     },
                     {
-                        title: 'Metrics设计',
-                        link: '/zh-cn/docs/dev/seata-mertics.html',
+                        title: 'Trie 前缀树介绍',
+                        link: '/zh-cn/docs/dev/trie.html',
+                    },
+                    {
+                        title: '文档和博客贡献',
+                        link: '/zh-cn/docs/dev/blog.html',
                     },
                 ],
             },
             {
-                title: '运维指南',
+                title: '质量指标',
                 children: [
                     {
-                        title: '版本升级指南',
-                        link: '/zh-cn/docs/ops/upgrade.html',
+                        title: '性能',
+                        link: '/zh-cn/docs/user/quality/performance.html',
                     },
                     {
-                        title: '部署',
-                        children: [
-                            {
-                                title: '新人文档',
-                                link: '/zh-cn/docs/ops/deploy-guide-beginner.html',
-                            },
-                            {
-                                title: '直接部署',
-                                link: '/zh-cn/docs/ops/deploy-server.html',
-                            },
-                            {
-                                title: 'Docker部署',
-                                link: '/zh-cn/docs/ops/deploy-by-docker.html',
-                            },
-                            {
-                                title: 'Docker compose部署',
-                                link: '/zh-cn/docs/ops/deploy-by-docker-compose.html',
-                            },
-                            {
-                                title: 'Kubernetes部署',
-                                link: '/zh-cn/docs/ops/deploy-by-kubernetes.html',
-                            },
-                            {
-                                title: 'Helm 部署',
-                                link: '/zh-cn/docs/ops/deploy-by-helm.html',
-                            },
-                            {
-                                title: '高可用部署',
-                                link: '/zh-cn/docs/ops/deploy-ha.html',
-                            },
-                        ]
+                        title: '稳定性',
+                        link: '/zh-cn/docs/user/quality/stability.html',
                     }
                 ]
 
