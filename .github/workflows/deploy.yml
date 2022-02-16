@@ -3,7 +3,7 @@ name: pixiu deploy
 on:
   push:
     branches:
-    - main
+    - master
 
 jobs:
   Build-Deploy:
