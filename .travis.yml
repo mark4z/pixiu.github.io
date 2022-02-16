@@ -8,9 +8,10 @@ install:
   - npm install docsite@1.3.9 -g
   - npm install
 
-# 构建脚本
+# 构建脚本 
 script:
-  - docsite build
+  # to fix TypeError: Cannot read property 'rootPath' of undefined
+  - /home/travis/.nvm/versions/node/v8.16.0/bin/docsite build
   - mkdir ./temporary
   - cp -r build/ docs/ index.html 404.html img/ zh-cn/ en-us/ resource/ ./temporary/
 
